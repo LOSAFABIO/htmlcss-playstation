@@ -8,6 +8,8 @@ body{
     overflow-x: hidden;
 }
 
+/* WIDTH */
+
 .w100{
     width: 100%;
 }
@@ -40,8 +42,36 @@ body{
     width: 60px;
 }
 
+.ms_img_50p{
+    width: 50px;
+}
+
+.ms_img_40p{
+    width: 40px;
+}
+
+.ms_img_30p{
+    width: 30px;
+}
+
 .ms_img_20p{
     width: 20px;
+}
+
+/* HEIGHT */
+
+.h100{
+    height: 100%;
+}
+
+/* PADDING */
+
+.pad5015{
+    padding: 50px 15px
+}
+
+li{
+    margin: 0 5px;
 }
 
 .ms-jumbo-bg{
@@ -59,8 +89,19 @@ h1{
     font-size: 45px
 }
 
-p{
+.p_console{
     font-size: 25px;
-    opacity: .7;
     padding-top: 15px;
+}
+
+.opacity7{
+    opacity: .7;
+}
+
+.ms-partner-bg{
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
 }
