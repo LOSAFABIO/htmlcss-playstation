@@ -8,6 +8,10 @@ body{
     overflow-x: hidden;
 }
 
+.w100{
+    width: 100%;
+}
+
 .w99{
     width: 99%;
 }
@@ -38,4 +42,25 @@ body{
 
 .ms_img_20p{
     width: 20px;
+}
+
+.ms-jumbo-bg{
+    background-image: url(img/jumbo-bg.png);
+    height: 650px;
+    background-position: center;
+    margin-top: 84px;
+}
+
+.c-white{
+    color: white;
+}
+
+h1{
+    font-size: 45px
+}
+
+p{
+    font-size: 25px;
+    opacity: .7;
+    padding-top: 15px;
 }
