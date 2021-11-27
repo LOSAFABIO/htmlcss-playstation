@@ -109,7 +109,7 @@ li{
 
 .ms-partner-bg{
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
-    height: 650px;
+    height: 100%;
     background-position: center;
     background-size: cover;
     margin-top: 20px;
@@ -145,4 +145,17 @@ li{
 
 .ms_margin180{
     margin: 18px 0
+}
+
+.ms_h1_store{
+    font-size: 40px;
+}
+
+.ms_p_store{
+    font-size: 20px;
+}
+
+.ms_blue_psnow{
+    color: white;
+    background-color: rgb(10, 10, 128);
 }
