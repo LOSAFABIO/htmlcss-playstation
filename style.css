@@ -38,6 +38,10 @@ body{
     width: 50%;
 }
 
+.ms_img_100p{
+    width: 100px;
+}
+
 .ms_img_60p{
     width: 60px;
 }
@@ -158,4 +162,8 @@ li{
 .ms_blue_psnow{
     color: white;
     background-color: rgb(10, 10, 128);
+}
+.ms_blue_footer{
+    color: white;
+    background-color: #2a63ff;
 }
