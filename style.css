@@ -38,6 +38,10 @@ body{
     width: 50%;
 }
 
+.ms_img_420p{
+    width: 420px;
+}
+
 .ms_img_100p{
     width: 100px;
 }
@@ -82,6 +86,9 @@ body{
     padding: 12px 0 4px 0;
 }
 
+.padt250{
+    padding-top: 250px;
+}
 
 li{
     margin: 0 5px;
@@ -91,11 +98,15 @@ li{
     background-image: url(img/jumbo-bg.png);
     height: 650px;
     background-position: center;
-    margin-top: 84px;
+    margin-top: 100px;
 }
 
 .c-white{
     color: white;
+}
+
+.c-black{
+    color: black;
 }
 
 .ms_h1_console{
@@ -166,4 +177,25 @@ li{
 .ms_blue_footer{
     color: white;
     background-color: #2a63ff;
+}
+
+.ms_img_brad{
+    border-radius: 20px;
+}
+
+.ms_blue_btn{
+    border: solid 2px #2a63ff;
+}
+
+button:hover{
+    box-shadow:inset 2px 2px white;
+}
+
+.op50{
+    opacity: .5;
+    transition: all 0.1s ease 0.2s
+}
+
+.op50:hover{
+    opacity: 1;
 }
