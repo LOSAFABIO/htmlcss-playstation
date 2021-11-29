@@ -183,12 +183,28 @@ li{
     border-radius: 20px;
 }
 
-.ms_blue_btn{
-    border: solid 2px #2a63ff;
+button{
+    outline: 3px solid transparent;
+    border: 2px solid transparent!important;
 }
 
-button:hover{
-    box-shadow:inset 2px 2px white;
+.ms_blue_btn:hover{
+    outline: 3px solid #2a63ff;
+    border: solid 2px white!important;
+}
+
+.ms_red_btn:hover{
+    outline: 3px solid red;
+    border: 2px solid black!important;
+}
+
+.ms_white_btn:hover{
+    outline: solid 5px rgba(255,255,255,.2);
+}
+
+.ms_black_btn:hover{
+    outline: 3px solid black;
+    border: 2px solid white!important;
 }
 
 .op50{
@@ -198,4 +214,16 @@ button:hover{
 
 .op50:hover{
     opacity: 1;
+}
+
+.up:hover{
+    --bs-gutter-y: 1.0rem;
+}
+
+.lens{
+    border: solid 2px black;
+}
+
+.ms_text_blue:hover{
+    color: #2a63ff;
 }
