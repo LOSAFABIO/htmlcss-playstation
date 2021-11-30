@@ -66,6 +66,10 @@ body{
     width: 20px;
 }
 
+.ms_img_10p{
+    width: 10px;
+}
+
 /* HEIGHT */
 
 .h100{
@@ -225,5 +229,32 @@ button{
 }
 
 .ms_text_blue:hover{
+    color: #2a63ff;
+}
+
+/*
+.ms_chevron_down{
+    vertical-align:middle;
+    display: inline-block;
+}    
+
+.ms_chevron_down_hover{
+    display: none;
+}
+
+.ms_down a:hover .ms_chevron_down_hover{
+    display: block;
+}
+
+.ms_down:hover .ms_chevron_down{
+    display: none;
+}
+*/
+
+.ms_shadow:hover{
+    box-shadow: 2px 2px 3px #999, -2px -2px 3px #999, 2px -2px 3px #999, -2px 2px 3px #999 ;
+}
+
+.show{
     color: #2a63ff;
 }
